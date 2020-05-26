@@ -10,12 +10,10 @@ int inclusion(int *A, int n , int *B , int m)
             if(A[i]==B[j])
             {
                 k = 1;
-                printf("T : %d %d\n",A[i],B[j]);
                 break;
             }
             else
             {
-                printf("B : %d %d\n",A[i],B[j]);
                 k = 0;
             }   
         }
