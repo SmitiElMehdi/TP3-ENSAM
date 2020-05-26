@@ -26,7 +26,7 @@ void divider(int *T,int n)
 {
     for(int i = 0; i < n/2; i++)
     {
-        for(int j=0; j < n ; j+=2*pow(2,i))
+        for(int j=0; j < 2*ceil(n/2) ; j+=2*pow(2,i))
         {
             int k,v;
             if(i == 0)
