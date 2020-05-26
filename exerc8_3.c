@@ -38,7 +38,7 @@ void divider(int *T,int n)
             else
             {
                 k=j+pow(2,i);
-                v=j+(4*i);
+                v=j+2*(pow(2,i));
                 if(k >= n)
                 {
                     k=n-1;
